@@ -62,4 +62,5 @@ main#web_chat .chat_box .massege .write {
 main#web_chat .chat_box .massege .send_btn { 
     display: inline-block; 
     position: absolute; 
-    right: 0; }
+    right: 0; 
+}
