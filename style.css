@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+* { 
+    margin: 0; padding: 0; 
+}
+body { 
+    background-color: #333333; 
+    overflow-x: hidden; 
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+a, input, button, 
+textarea, img { outline: none; }
+h1, h2, h3, h4, 
+h5, h6, p, span, i, b { 
+    color: #333333; 
+}
+input, textarea { 
+    overflow-x: hidden; 
+    box-sizing: border-box; 
+}
+input { padding: 5px; }
+input[type='text'] {  }
+input:focus { }
+
+button { padding: 5px 10px; }
+
+main#web_chat { 
+    width: 100%; 
+    height: auto; 
+    padding: 5%; 
+}
+main#web_chat .title { 
+    font-size: 13px; 
+    display: block; 
+    padding-bottom: 10px; 
+    color: #CFCFCF; 
+}
+main#web_chat .chat_box { 
+    width: 400px; 
+    height: auto; 
+}
+main#web_chat .chat_box #view { 
+    display: inline-block; 
+    width: 100%; 
+    min-height: 400px; 
+    height: auto; 
+    background-color: #666666; 
+    border: none; 
+    border-bottom: 3px solid #CFCFCF; 
+    border-radius: 2%; 
+}
+main#web_chat .chat_box .massege { 
+    margin-top: 10px; 
+    width: 100%; 
+    height: auto; 
+    position: relative; 
+}
+main#web_chat .chat_box .massege .write { 
+    display: inline-block; 
+    width: 85%; 
+}
+main#web_chat .chat_box .massege .send_btn { 
+    display: inline-block; 
+    position: absolute; 
+    right: 0; }
