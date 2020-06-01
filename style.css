@@ -5,7 +5,7 @@
 }
 body { 
     background-color: #333333; 
-    overflow: hidden; 
+    overflow-x: hidden; 
     font-family: 'Noto Sans KR', sans-serif; 
 }
 a, input, button, 
