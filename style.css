@@ -56,6 +56,7 @@ main#web_chat .chat_box #view {
     resize: none;
     border-radius: 1% 1% 0 0;
     overflow-y: auto;
+    cursor: default;
 }
 main#web_chat .chat_box .massege { 
     width: 100%; 
@@ -88,4 +89,5 @@ main#web_chat .chat_box .massege .send_btn {
 }
 main#web_chat .chat_box .massege .send_btn i {
     color: #fff;
+    font: 12px;
 }
