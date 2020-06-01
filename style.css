@@ -5,7 +5,7 @@
 }
 body { 
     background-color: #333333; 
-    overflow-x: hidden; 
+    overflow: hidden; 
     font-family: 'Noto Sans KR', sans-serif; 
 }
 a, input, button, 
@@ -15,52 +15,77 @@ h5, h6, p, span, i, b {
     color: #333333; 
 }
 input, textarea { 
+    border: none;
     overflow-x: hidden; 
     box-sizing: border-box; 
 }
-input { padding: 5px; }
-input[type='text'] {  }
+input[type='text'] {
+    
+}
+input::placeholder {
+}
 input:focus { }
 
-button { padding: 5px 10px; }
+button { 
+    border: none;
+    box-sizing: border-box;
+}
 
 main#web_chat { 
     width: 100%; 
     height: auto; 
-    padding: 5%; 
 }
 main#web_chat .title { 
     font-size: 13px; 
     display: block; 
     padding-bottom: 10px; 
-    color: #CFCFCF; 
+    color: #fff; 
+    text-align: center;
 }
 main#web_chat .chat_box { 
-    width: 400px; 
-    height: auto; 
+    width: 95%; 
+    height: auto;
+    margin: 0 auto;
 }
 main#web_chat .chat_box #view { 
-    display: inline-block; 
+    display: block; 
     width: 100%; 
-    min-height: 400px; 
-    height: auto; 
+    height: 91%; 
     background-color: #666666; 
-    border: none; 
-    border-bottom: 3px solid #CFCFCF; 
-    border-radius: 2%; 
+    border: none;  
+    resize: none;
+    border-radius: 1% 1% 0 0;
+    overflow-y: auto;
 }
 main#web_chat .chat_box .massege { 
-    margin-top: 10px; 
     width: 100%; 
     height: auto; 
     position: relative; 
 }
 main#web_chat .chat_box .massege .write { 
     display: inline-block; 
-    width: 85%; 
+    width: 90%;
+    padding: 5px; 
+    background-color: #666666;
+    color: #fff;
+    height: 40px;
+    border-top: 1px solid #4A4A4A;
+    border-radius: 0 0 0 2%; 
 }
+main#web_chat .chat_box .massege .write::placeholder {
+    color: #fff;
+} 
 main#web_chat .chat_box .massege .send_btn { 
+    width: 10%;
     display: inline-block; 
     position: absolute; 
     right: 0; 
+    text-align: center;
+    padding: 5px 0;
+    height: 40px;
+    border-radius: 0 0 2% 0;
+    background-color: #80EB46;
+}
+main#web_chat .chat_box .massege .send_btn i {
+    color: #fff;
 }
