@@ -43,9 +43,9 @@ main#web_chat .title {
     text-align: center;
 }
 main#web_chat .chat_box { 
-    width: 95%; 
+    width: 100%; 
     height: auto;
-    margin: 0 auto;
+    margin: 0;
 }
 main#web_chat .chat_box #view { 
     display: block; 
@@ -61,6 +61,10 @@ main#web_chat .chat_box #view {
 main#web_chat .chat_box .massege { 
     width: 100%; 
     height: 6%; 
+    position: fixed;
+    bottom: 0;
+}
+main#web_chat .chat_box .massege .massege_inner {
     position: relative; 
 }
 main#web_chat .chat_box .massege .write { 
