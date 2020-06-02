@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, height=device-height"/>
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no"/>
     <title>web chat</title>
     <link href="./style.css" rel="styleSheet" type="text/css" />
     <script src="https://kit.fontawesome.com/5c464167cf.js" crossorigin="anonymous"></script>
@@ -14,8 +14,10 @@
         <div id="chat_wrap" class="chat_box col-12">
             <textarea id="view" class="tarea_style" readonly></textarea>
             <div class="massege">
-                <input type="text" class="write" placeholder="메세지를 입력하세요.." />
-                <button type="submit" class="send_btn btn"><i class="fas fa-paper-plane"></i></button>
+                <div class="massege_inner">
+                    <input type="text" class="write" placeholder="메세지를 입력하세요.." />
+                    <button type="submit" class="send_btn btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
             </div>
         </div>
     </main>
