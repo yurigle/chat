@@ -60,7 +60,7 @@ main#web_chat .chat_box #view {
 }
 main#web_chat .chat_box .massege { 
     width: 100%; 
-    height: 8%; 
+    height: 5%; 
     position: relative; 
 }
 main#web_chat .chat_box .massege .write { 
