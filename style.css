@@ -5,7 +5,7 @@
 }
 body { 
     background-color: #333333; 
-    overflow-x: hidden; 
+    overflow: hidden; 
     font-family: 'Noto Sans KR', sans-serif; 
 }
 a, input, button, 
@@ -38,7 +38,7 @@ main#web_chat {
 main#web_chat .title { 
     font-size: 13px; 
     display: block; 
-    padding-bottom: 10px; 
+    padding: 5px 0; 
     color: #fff; 
     text-align: center;
 }
@@ -86,6 +86,7 @@ main#web_chat .chat_box .massege .send_btn {
     height: 40px;
     border-radius: 0 0 2% 0;
     background-color: #80EB46;
+    cursor: pointer;
 }
 main#web_chat .chat_box .massege .send_btn i {
     color: #fff;
