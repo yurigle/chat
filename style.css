@@ -38,7 +38,7 @@ main#web_chat {
 main#web_chat .title { 
     font-size: 13px; 
     display: block; 
-    padding: 5px 0; 
+    padding-bottom: 10px; 
     color: #fff; 
     text-align: center;
 }
